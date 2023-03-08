@@ -71,18 +71,6 @@ class _ExplorePageState extends State<ExplorePage> {
       appData.cartVisible == true;
       setState(() {});
     }
-    // Product product = const Product(
-    //     id: 'id',
-    //     name: 'name',
-    //     brand: 'brand',
-    //     shopName: 'shopName',
-    //     description: 'description',
-    //     rating: 5,
-    //     price: 1000,
-    //     category: 'category',
-    //     country: 'country',
-    //     imageUrl: 'images/bag2.jpg');
-
     return Scaffold(
         body: Column(children: [
           Container(
